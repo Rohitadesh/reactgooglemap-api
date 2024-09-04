@@ -1,10 +1,9 @@
+import Blog from "./componets/Blog"
 const File = () =>{
 
 
     return(
-        <h1>
-            File data
-        </h1>
+        <Blog />
     )
 }
 

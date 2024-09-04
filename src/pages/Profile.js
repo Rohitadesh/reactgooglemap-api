@@ -8,7 +8,7 @@ export default function Profile(){
             grid grid-rows-5">
             <div className="h-full w-full  flex flex-rows justify-center items-center">
                  <div className="h-full w-[50%] flex flex-col justify-center items-center">
-                    <image  />
+                    {/* <image  /> */}
                  </div>
                  <div className="h-full w-[50%] flex  relative flex-col gap-2 justify-center items-center">
                    <h1 className="text-black text-left absolute left-16 bottom-16">Name</h1>

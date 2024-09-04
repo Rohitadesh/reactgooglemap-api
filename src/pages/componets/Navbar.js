@@ -3,10 +3,13 @@ import Link from "next/link";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
 import { useContext, useState } from "react";
+import { IoPersonSharp } from "react-icons/io5";
 import { AiOutlineFile } from "react-icons/ai";
 import { IoSettings } from "react-icons/io5";
+import { CiLogout } from "react-icons/ci";
 import { CgProfile } from "react-icons/cg";
 import { useRouter } from "next/navigation";
+import { MdOutlinePayment } from "react-icons/md";
 import { ActiveLinkContext } from '../../pages/componets/context/context';
 const Navbar = ({ setOpen, open }) => {
     // const [activeLink,setActiveLink]=useState('/')
@@ -20,9 +23,19 @@ const Navbar = ({ setOpen, open }) => {
         },
         {
             path: '/File',
-            name: 'File',
+            name: 'Blog',
             icon: <AiOutlineFile />,
         },
+        {
+            path: '/Employee',
+            name: 'Employee',
+            icon: <IoPersonSharp />,
+        },
+        {
+            path:'/Payment',
+            name:"Payment",
+            icon:<MdOutlinePayment />
+        }
     ];
     const route2=[
         {
@@ -36,7 +49,12 @@ const Navbar = ({ setOpen, open }) => {
             icon:<CgProfile />
         },
        
-    
+        {
+            path:'',
+            name:"Logout",
+            icon:<CiLogout />
+        },
+       
 
 ]
 
