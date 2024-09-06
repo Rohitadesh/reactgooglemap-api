@@ -1,3 +1,4 @@
+import { FcSimCardChip } from "react-icons/fc";
 const Payment =() =>{
 
 
@@ -5,8 +6,8 @@ const Payment =() =>{
         <div className="h-[23rem] w-[52rem] rounded-md shadow-xl grid  shadow-gray-300 border rounded-md grid-cols-5">
             <div className="col-span-2 h-full w-full  pl-8 flex flex-col justify-center items-center">
                 <div className="border shadow-xl w-full  h-[12rem] rounded-md">
-
-                </div>
+                        <FcSimCardChip />
+                </div>  
             </div>
             <div className="col-span-3 h-full w-full   grid grid-rows-4">
                 <div className="h-full w-full row-span-1 gap-1 justify-center items-center flex flex-col ">

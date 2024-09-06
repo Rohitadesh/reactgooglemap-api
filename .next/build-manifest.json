@@ -12,25 +12,20 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/Employee": [
+    "/": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Employee.js"
+      "static/chunks/pages/index.js"
+    ],
+    "/File": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/File.js"
     ],
     "/Payment": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/Payment.js"
-    ],
-    "/Profile": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Profile.js"
-    ],
-    "/Setting": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Setting.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
